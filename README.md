@@ -3,7 +3,7 @@
 A full-stack task and project management application that helps teams create projects, assign tasks, and track progress efficiently.
 
 
-📌 Features
+## 📌 Features
 User authentication (Signup / Login)
 JWT-based secure login system
 Create and manage projects
@@ -14,7 +14,7 @@ REST API backend
 Fully deployed application
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend:
 React
 Axios
@@ -33,7 +33,7 @@ Frontend: Railway
 
 
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 team-task-manager/
 │
 ├── frontend/        # React frontend
@@ -44,24 +44,24 @@ team-task-manager/
 └── README.md
 
 
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 1. Clone Repository
 git clone https://github.com/your-username/team-task-manager.git
 2. Backend Setup
 cd backend
 npm install
 
-Create .env file:
+## Create .env file:
 
 DATABASE_URL=your_postgres_url
 JWT_SECRET=your_secret_key
 PORT=8080
 
-Run migrations:
+## Run migrations:
 
 npx prisma migrate dev
 
-Start backend:
+## Start backend:
 
 npm run dev
 3. Frontend Setup
@@ -70,7 +70,7 @@ npm install
 npm start
 
 
-🔐 Authentication Flow
+## 🔐 Authentication Flow
 User registers with email & password
 Password is hashed using bcrypt
 JWT token is generated on login
